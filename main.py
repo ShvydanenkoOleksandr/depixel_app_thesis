@@ -12,14 +12,14 @@ from model import load_image, RRDBNet
 class WelcomeWindow(QtWidgets.QMainWindow):
     def __init__(self, app):
         super().__init__()
-        uic.loadUi('welcome_screen.ui', self)
+        uic.loadUi('ui/welcome_screen.ui', self)
         self.app = app
         self.pushButton.clicked.connect(self.app.show_main_screen)
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, app):
         super().__init__()
-        uic.loadUi('main_screen.ui', self)
+        uic.loadUi('ui/main_screen.ui', self)
         self.app = app
         self.pushButton.clicked.connect(self.upload_image)
         self.pushButton_1.clicked.connect(self.show_depixel_screen)
@@ -81,7 +81,7 @@ class WaitDialog(QDialog):
 class DepixelWindow(QtWidgets.QMainWindow):
     def __init__(self, app):
         super().__init__()
-        uic.loadUi('depixel_screen.ui', self)
+        uic.loadUi('ui/depixel_screen.ui', self)
         self.app = app
         self.scene = QGraphicsScene()
         self.graphicsView.setScene(self.scene)
@@ -199,7 +199,7 @@ class DepixelWindow(QtWidgets.QMainWindow):
 class CompareWindow(QtWidgets.QMainWindow):
     def __init__(self, app):
         super().__init__()
-        uic.loadUi('compare_screen.ui', self)
+        uic.loadUi('ui/compare_screen.ui', self)
         self.app = app
         self.scene_original = QGraphicsScene()
         self.scene_depixel = QGraphicsScene()
