@@ -85,7 +85,7 @@
 font: 600 24pt &quot;Montserrat&quot;;</string>
     </property>
     <property name="text">
-     <string>ЗАВАНТАЖИТИ </string>
+     <string>DOWNLOAD </string>
     </property>
     <property name="iconSize">
      <size>
@@ -129,7 +129,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
 font: 600 24pt &quot;Montserrat&quot;;</string>
     </property>
     <property name="text">
-     <string>ДЕПІКСЕЛІЗУВАТИ</string>
+     <string>DEPIXELIZE</string>
     </property>
     <property name="iconSize">
      <size>
@@ -170,7 +170,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>main_love_pixel.png</pixmap>
+     <pixmap>main_love_pixel.svg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

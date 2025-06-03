@@ -85,7 +85,7 @@
 font: 600 24pt &quot;Montserrat&quot;;</string>
     </property>
     <property name="text">
-     <string>Порівняти</string>
+     <string>Compare</string>
     </property>
     <property name="iconSize">
      <size>
@@ -129,7 +129,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
 font: 600 24pt &quot;Montserrat&quot;;</string>
     </property>
     <property name="text">
-     <string>Завантажити</string>
+     <string>Download</string>
     </property>
     <property name="iconSize">
      <size>
@@ -211,7 +211,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
      </font>
     </property>
     <property name="text">
-     <string>Ваше зображення готове</string>
+     <string>Your image is ready</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>

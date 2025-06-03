@@ -133,7 +133,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
      </font>
     </property>
     <property name="text">
-     <string>ПЕРЕД</string>
+     <string>BEFORE</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -171,7 +171,7 @@ font: 600 24pt &quot;Montserrat&quot;;</string>
      </font>
     </property>
     <property name="text">
-     <string>ПІСЛЯ</string>
+     <string>AFTER</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
